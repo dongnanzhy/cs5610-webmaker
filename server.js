@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Point static path to dist -- For building -- REMOVE
 //app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(express.static(path.join(__dirname, 'dist/hello-world')));
+app.use(express.static(path.join(__dirname, 'dist/web-maker')));
 
 // CORS
 app.use(function(req, res, next) {
